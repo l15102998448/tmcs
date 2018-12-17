@@ -1,0 +1,3243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>天猫首页</title>
+<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+<!-- 顶部 -->
+<div class="mostTop">
+	<div class="mTop">
+		<a href="#">
+		<img src="img/t_bg.jpg"/>
+	</a>
+	</div>
+</div>
+<!-- header -->
+<div class="tHeader">
+	<!-- header top -->
+	<div class="tHeader_top">
+		<div class=theader_top1>
+			<p class="tHeader_p1">
+				<!-- <i>||</i> -->
+				<a href="#" target="">天猫首页</a>
+			</p>
+			<p  class="tHeader_p2">
+				<em style="margin-right: 20px">喵，欢迎来天猫</em>
+				<div class="wdl">
+					<div class="lobox">
+						<a id="loginCookie" href="login.html" target="_blank">请登录</a>
+						<a id="regCookie" href="register.html" target="_blank">免费注册</a>
+					</div>
+					<div id="welcomeBox">
+						欢迎您：<span id="usernameSpan"></span>
+						<input id="btnOut" type="button" value="注销" />
+					</div>
+					<!-- <div id="loginBox">
+						<a href="demo11login.html" >请登录</a>
+					</div> -->
+				</div>
+				
+			</p>
+			<ul class="tMenu">
+				<li class="tList01">
+					<a href="#" class="tb">我的淘宝 <span class="triangle"></span></a>
+						<div class="shopBaby">
+							<a href="#">已买到的宝贝</a>
+							<a href="#">已卖出的宝贝</a>
+						</div>
+				</li>
+				<li class="tList02">
+					<a href="gwc.html"><img src="img/g1.png"/>购物车</a>
+				</li>
+				<li class="tList01">
+					<a href="#">收藏夹  <span class="triangle"></span></a>
+						<div  class="shopBaby" >
+							<a href="#">收藏的宝贝</a>
+							<a href="#">收藏的店铺</a>
+						</div>
+				</li> 
+				<li class="tlistSpecial" style="width:1px;margin-left:5px;border:none;"></li>
+				<li class="tList04">
+					<a href="#"><img src="img/g2.png"/>手机版</a>
+					<span class="triangle01"></span>
+					<div class="tuPian">
+						<img src="img/ttmm.png"/>
+						<p>
+							<b>到天猫APP</b><br/>
+							<b>新人抢10-15元红包</b>
+						</p>
+					</div>
+				</li>
+				<li class="tList05">
+					<a href="#">淘宝网</a>
+				</li>
+				<li class="tList06">
+					<a href="#"><img src="img/g3.png"/>商家支持</a>
+				</li>
+				<li class="tList07">
+					<a href="#">网站导航<span class="triangle"></span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- header buttom -->
+	<div class="header_bottom">
+		<h1 id="mallLogo">
+			<span class="mLogo">
+				<a href="#">
+					<img src="img/mLogo.png"/>
+				</a>
+			</span>
+		</h1>
+		<div class="bCity">
+			<h3>西安</h3>
+		</div>
+		<div class="fMiddle">
+			<form>
+				<input type="text" placeholder="请搜索天猫产品" />
+				<button  id="btnSearch" type="submit">搜 索</button>
+			</form>
+		</div>
+		<div class="header_banner">
+			<ul class="market_feature">
+				<li>
+					<a href="#">
+						<img class="iconP" src="img/icon01.png"/>一站式购齐</a>
+				</li>
+				<li>
+					<a href="#"><img class="iconP" src="img/icon02.png"/>满88包邮</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/b01.png"/>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/b.png"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- chaoshi nav -->
+<div class="nav02">
+	<div class="proClassify">
+		<p id="product01">所有产品分类</p>
+		<div class="navList">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="goods.html">量贩装</a></li>	
+				<li><a href="#">生鲜区</a></li> 
+				<li><a href="#">企业采购</a></li>
+				<li><a href="#" id="specialA">大家电</a></li>	
+			</ul>
+		</div>
+		<a href="#" class="navM">
+			<img src="img/icon03.png"/>我的福利
+		</a>
+		<div class="proRight">
+			<div class="shopingCar01">
+				<p>
+					<b>￥0.00元</b>
+					<b>0kg</b>
+				</p>
+				<span class="sIcon"></span>
+			</div>
+			<div class="sCar">
+				<p class="splist">
+					<span>商品</span>
+					<span>数量</span>
+					<span>价格</span>
+					<span>删除</span>
+				</p>
+				<p class="spCar">
+					<span>如果您还没有登录，可能会导致购物车为空，请<a href="login.html">马上登录</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+   
+<!-- content -->
+<div class="content">
+	<div class="content01">
+		<!-- content left -->
+		<div class="conLeft">
+			<ul class="sideLeftandPlay">
+				<li>
+					<h3 class="conTitle">
+						<i class="iconfont icon-feiji"></i>
+						<a href="#">进口食品</a>
+						<a class="imgs02" href="#">
+							<i class="iconfont icon-3"></i>
+						</a>
+					</h3>
+					<p class="conList"> 
+						<a href="#">牛奶</a>
+						<a href="#">零食</a>
+						<a href="#">饼干</a>
+						<a href="#">方便面</a>
+						<a href="#">粮油</a>
+					</p>
+
+					<div class="leftMenu">
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" >进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">安佳牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">巴黎水</a> <br/>
+									<a  class="smallTit" href="#">小老板</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">家乐氏</a> <br/>
+									<a class="smallTit" href="#">汤姆农场</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">中原7G</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌活动</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">德亚牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口谷物冲饮</a> <br/>
+									
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+							</dl>
+						</div>
+					</div>
+				</li>
+				<li>
+					<h3 class="conTitle">
+						<i class="iconfont icon-yinliao"></i>
+						<a href="#">食品饮料</a>
+						<a class="imgs02" href="#">
+							<i class="iconfont icon-3"></i>
+						</a>
+					</h3>
+					<p class="conList"> 
+						<a href="#">牛奶</a>
+						<a href="#">坚果</a>
+						<a href="#">饼干</a>
+						<a href="#">方便面</a>
+						<a href="#">粮油</a>
+					</p>
+					<div class="leftMenu">
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" >进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">安佳牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">巴黎水</a> <br/>
+									<a  class="smallTit" href="#">小老板</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">家乐氏</a> <br/>
+									<a class="smallTit" href="#">汤姆农场</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">中原7G</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌活动</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">德亚牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口谷物冲饮</a> <br/>
+									
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+							</dl>
+						</div>
+					</div>
+				</li>
+				<li>
+					<h3 class="conTitle">
+						<i class="iconfont icon-liangyou"></i>
+						<a href="#">粮油副食</a>
+						<a class="imgs02" href="#">
+							<i class="iconfont icon-3"></i>
+						</a>
+					</h3>
+					<p class="conList"> 
+						<a href="#">油</a>
+						<a href="#">大米</a>
+						<a href="#">调料</a>
+						<a href="#">方便面</a>
+						<a href="#">火腿肠</a>
+					</p>
+					<div class="leftMenu">
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">大米面粉</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" >进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">安佳牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">巴黎水</a> <br/>
+									<a  class="smallTit" href="#">小老板</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">家乐氏</a> <br/>
+									<a class="smallTit" href="#">汤姆农场</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">中原7G</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌活动</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">德亚牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口谷物冲饮</a> <br/>
+									
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+							</dl>
+						</div>
+					</div>
+				</li>
+				<li>
+					<h3 class="conTitle">
+						<i class="iconfont icon-konghong"></i>
+						<a href="#">美容洗护</a>
+						<a class="imgs02" href="#">
+							<i class="iconfont icon-3"></i>
+						</a>
+					</h3>
+					<p class="conList"> 
+						<a href="#">牛奶</a>
+						<a href="#">零食</a>
+						<a href="#">饼干</a>
+						<a href="#">方便面</a>
+						<a href="#">粮油</a>
+					</p>
+					<div class="leftMenu">
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" >进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">安佳牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">巴黎水</a> <br/>
+									<a  class="smallTit" href="#">小老板</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">家乐氏</a> <br/>
+									<a class="smallTit" href="#">汤姆农场</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">中原7G</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌活动</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">德亚牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口谷物冲饮</a> <br/>
+									
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+							</dl>
+						</div>
+					</div>
+				</li>
+				<li>
+					<h3 class="conTitle">
+						<i class="iconfont icon-jiandao"></i>
+						<a href="#">家居家电</a>
+						<a class="imgs02" href="#">
+							<i class="iconfont icon-3"></i>
+						</a>
+					</h3>
+					<p class="conList"> 
+						<a href="#">牛奶</a>
+						<a href="#">零食</a>
+						<a href="#">饼干</a>
+						<a href="#">方便面</a>
+						<a href="#">粮油</a>
+					</p>
+					<div class="leftMenu">
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" >进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">安佳牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">巴黎水</a> <br/>
+									<a  class="smallTit" href="#">小老板</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">家乐氏</a> <br/>
+									<a class="smallTit" href="#">汤姆农场</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">中原7G</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌活动</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">德亚牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口谷物冲饮</a> <br/>
+									
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+							</dl>
+						</div>
+					</div>
+				</li>
+				<li>
+					<h3 class="conTitle">
+						<i class="iconfont icon-baihuo"></i>
+						<a href="#">家庭清洁</a>
+						<a class="imgs02" href="#">
+							<i class="iconfont icon-3"></i>
+						</a>
+					</h3>
+					<p class="conList"> 
+						<a href="#">牛奶</a>
+						<a href="#">零食</a>
+						<a href="#">饼干</a>
+						<a href="#">方便面</a>
+						<a href="#">粮油</a>
+					</p>
+					<div class="leftMenu">
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" >进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">安佳牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">巴黎水</a> <br/>
+									<a  class="smallTit" href="#">小老板</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">家乐氏</a> <br/>
+									<a class="smallTit" href="#">汤姆农场</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">中原7G</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌活动</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">德亚牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口谷物冲饮</a> <br/>
+									
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+							</dl>
+						</div>
+					</div>
+				</li>
+				<li>
+					<h3 class="conTitle">
+						<i class="iconfont icon-naiping"></i>
+						<a href="#">母婴用品</a>
+						<a class="imgs02" href="#">
+							<i class="iconfont icon-3"></i>
+						</a>
+					</h3>
+					<p class="conList"> 
+						<a href="#">牛奶</a>
+						<a href="#">零食</a>
+						<a href="#">饼干</a>
+						<a href="#">方便面</a>
+						<a href="#">粮油</a>
+					</p>
+					<div class="leftMenu">
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" >进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">安佳牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">巴黎水</a> <br/>
+									<a  class="smallTit" href="#">小老板</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">家乐氏</a> <br/>
+									<a class="smallTit" href="#">汤姆农场</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">中原7G</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌活动</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">德亚牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口谷物冲饮</a> <br/>
+									
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+							</dl>
+						</div>
+					</div>
+				</li>
+				<li id="conLi" >
+					<h3 class="conTitle">
+					<i class="iconfont icon-yu"></i>
+						<a href="#">生鲜水果</a>
+						<a class="imgs02" href="#"></a>
+					</h3>
+					<p class="conList"> 
+						<a href="#">牛奶</a>
+						<a href="#">零食</a>
+						<a href="#">饼干</a>
+						<a href="#">方便面</a>
+						<a href="#">粮油</a>
+					</p>
+					<div class="leftMenu">
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" >进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">进口纯牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">进口酸奶</a> <br/>
+									<a  class="smallTit" href="#">进口成人奶粉</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">进口乳酸饮料</a> <br/>
+									<a class="smallTit" href="#">进口纯牛奶有机饮料</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口酸牛奶</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="specificList">
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">安佳牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#" style="color: red">巴黎水</a> <br/>
+									<a  class="smallTit" href="#">小老板</a><span class="empSpan"></span>
+									<a class="smallTit" href="#">家乐氏</a> <br/>
+									<a class="smallTit" href="#">汤姆农场</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">中原7G</a>
+								</dd>
+							</dl>
+
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">品牌活动</h3></dt>
+								<dd >
+									<a class="smallTit" href="#">德亚牛奶</a> <span class="empSpan"></span>
+									<a class="smallTit" href="#">进口谷物冲饮</a> <br/>
+								</dd>
+							</dl>
+							<dl class="specificList01">
+								<dt><h3 class="bigTit">进口牛奶</h3></dt>
+							</dl>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- content middle -->
+		<div class="conMiddle">
+			<div id="mTop"></div>
+			<div class="mButtom">
+				<div class="row1">
+					<a href="#">
+						<img  id="aScale" src="img/r1.jpg"/>
+					</a>
+					<a   href="#">
+						<img id="aScale" src="img/r2.jpg"/>
+					</a>
+					<a   href="#">
+						<img id="aScale" src="img/r3.jpg"/>
+					</a>
+				</div>
+				<div class="row2">
+					<a id="bScale" href="#">
+						<img src="img/r01.jpg"/>
+					</a>
+					<a  id="bScale" href="#">
+						<img src="img/r02.jpg"/>
+					</a>
+					<a id="bScale" href="#">
+						<img src="img/r03.jpg"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- content right -->
+		<div class="conRight">
+			<div class="rTitle">
+				<img src="img/icon03.png"/>
+				<span>我的福利</span>
+			</div>
+			<div class="rButtom">
+				<div class="rlogo">
+					<a href="#" >
+						<img src="img/alogo.png"/>
+					</a>
+					<p>亲，快<a href="#">登录</a>查看您的游戏机会</p>
+				</div>
+				<div class="youxi">
+					<a href="#">优惠券</a>
+					<a href="#">享淘卡</a>
+					<a href="#">我常买</a>
+				</div>
+			</div>
+			<div class="sliderbar">
+				<a href="#">
+					<img src="img/s1.jpg"/>
+				</a>
+				<a href="#">
+					<img src="img/s2.jpg"/>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- friuts -->
+<div id="f01" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>生鲜水果</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop">
+				<a href="#">
+					<span>鸡肉</span>
+				</a>
+				<a href="#">
+					<span>鸡蛋/鸭蛋</span>
+				</a>
+				<a href="#">
+					<span>鸭肉</span>
+				</a>
+				<a href="#">
+					<span>鸽子</span>
+				</a>
+				<a href="#">
+					<span>木瓜</span>
+				</a>
+				<a href="#">
+					<span>三文鱼</span>
+				</a>
+				<a href="#">
+					<span>凤梨/菠萝</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>龙眼/桂圆</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/fl.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/xia.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/gy.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/bxg.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/dqy.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/np.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/kl.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/rw.jpg"/>
+						<img  class="outImg" src="img/out.png"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping1.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/jt.jpg"/>
+						<img class="outImg" src="img/out.png"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping1.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/lo2.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/lo3.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 进口零食速食 -->
+<div id="f02" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>进口零食速食</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop01">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/f2.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/fff1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/fff2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/fff3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/fff4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/fff5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/fff6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/fff7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/fff8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/ls1.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/ls2.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 纸制品 -->
+<div id="f03" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>纸制品</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop04">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/zz.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/zz01.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/zz02.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 家用纺织 -->
+<div id="f04" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>家用纺织</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop05">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/jj.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/zz8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/jj1.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/jj2.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 奶制品 -->
+<div  id="f05" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>奶制品</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop01 fLeftTop02">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/nzp.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/nz1.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/nz2.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 休闲零食 -->
+<div  id="f06" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>休闲零食</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop06 ">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/xx.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/xx1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/nz1.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/nz2.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 饼干糖巧 -->
+<div  id="f07" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>饼干糖巧</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop07 ">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/bgtq.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/xx1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/nz1.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/nz2.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 酒水饮料 -->
+<div  id="f08" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>酒水饮料</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop08 ">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/js.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/xx1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/nz1.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/nz2.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 冲饮保健 -->
+<div  id="f09" class="friuts">
+	<div class="friuts01">
+		<div class="friuts01Title">
+			<h3>冲饮保健</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop09 ">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/bj.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/xx1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/nn8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/nz1.jpg"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/nz2.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- 美容护肤 -->
+<div  id="f010" class="friuts">
+	<div class="friuts01 friuts02">
+		<div class="friuts01Title">
+			<h3>美容护肤</h3>
+		</div>
+		<div class="fruitContent">
+		<!-- 左侧 -->
+		<div class="friutsLeft">
+			<div class="fLeftTop fLeftTop01 fLeftTop02 fLeftTop03">
+				<a href="#">
+					<span>糕点</span>
+				</a>
+				<a href="#">
+					<span>饼干</span>
+				</a>
+				<a href="#">
+					<span>糖果</span>
+				</a>
+				<a href="#">
+					<span>方便面</span>
+				</a>
+				<a href="#">
+					<span>果肉</span>
+				</a>
+				<a href="#">
+					<span>枣类</span>
+				</a>
+				<a href="#">
+					<span>意面</span>
+				</a>
+				<a href="#">
+					<span>火腿</span>
+				</a>
+				<a href="#">
+					<span>布丁</span>
+				</a>
+			</div>
+			<div class="fLeftButtom">
+				<img src="img/sap.jpg"/>
+			</div>
+		</div>
+		<!-- 中部 -->
+		<div class="friutsMiddle">
+			<div class="fMiddleList">
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/hf1.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">9.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/hf2.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/hf3.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/hf4.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">39.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/hf5.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/hf6.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">19.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/hf7.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">29.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+				<a href="#" >
+					<div class="wrap">
+						<img src="img/hf8.jpg"/>
+						<h3>粉嫩清新 紧实Q弹</h3>
+						<p class="points">原膳加拿大北极甜虾熟冻（120+/kg）500g</p>
+						<p>
+							<span class="iconMoney">￥</span>
+							<span class="num">59.9</span>
+						</p>
+						<img  class="shopCar" src="img/shoping.png"/>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- 右侧 -->
+		<div class="friutsRight">
+			<img class="lo1" src="img/lo1.png"/>
+			<a href="#">
+				<img class="lo2" src="img/bql.png"/>
+			</a>
+			<a href="#">
+				<img class="lo3" src="img/bql1.jpg"/>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="empty" style="" ></div>
+<!-- footer -->
+<div class="footer">
+	<div class="footer01">
+		<div class="footerTop">
+			<img class="footerImgs1" src="img/tmLogo.png"/>
+			<img  class="footerImgs2" src="img/tmm.png"/>
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">随时随地逛</a>
+				</dt>
+				<dd>
+					<a href="#">
+						<img class="code" src="img/picture.png"/>
+					</a>
+				</dd>
+			</dl>
+		</div>
+		<div class="footerBottom">
+			<!-- <div class="footerBottom01"> -->
+				<p>
+					<a href="#">关于天猫</a>
+					<a href="#">帮助中心</a>
+					<a href="#">开放平台</a>
+					<a href="#">诚聘英才</a>
+					<a href="#">联系我们</a>
+					<a href="#">网站合作</a>
+					<a href="#">法律说明</a>
+					<a href="#">隐私权政策</a>
+					<a href="#">知识产权</a>
+					<a href="#">廉政举报</a>
+				</p>
+				<p>
+					<a href="#">关于天猫</a> | 
+					<a href="#">帮助中心</a> | 
+					<a href="#">开放平台</a> | 
+					<a href="#">诚聘英才</a> | 
+					<a href="#">联系我们</a> | 
+					<a href="#">网站合作</a> | 
+					<a href="#">法律说明</a> | 
+					<a href="#">隐私权政策</a> | 
+					<a href="#">知识产权</a> | 
+					<a href="#">廉政举报</a>
+				</p>
+				<div class="footerLast">
+					<span>增值电信业务经营许可证：<a class="fWord" href="#">浙B2-20110446</a></span>
+					<span>市场名称登记证：工商网市字3301004119号</span>
+					<span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span><br/>
+					<span>互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+					<span>互联网药品信息服务资质证书编号：<a class="fWord" href="#">浙-（经营性）-2017-0005</a></span>
+					<a class="fWord" href="#">
+						<img style="width:25px;height: 20px;vertical-align: middle" src="img/b01.png"/>浙公网安备  3000255615485号
+					</a>
+					<span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
+					<span>互联网药品交易服务资格证书：国A20150001</span>
+					<span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+					<a class="fWord" href="#">12318举报</a><br/>
+					<b style="font-weight: 100;color:#66676c">© 2003-2018 TMALL.COM 版权所有</b>
+    				
+				</div>
+			<!-- </div> -->
+		</div>
+	</div>
+</div>
+<!-- 右侧边 -->
+<div class="sideRight">
+		<a  href="#">
+			<i class="iconfont icon-tianmao"></i>
+			<div class="icoDiv">
+				<span class="vip">会员权益
+				</span>
+				<div class="emptyDiv"></div>
+			</div>	
+		</a>
+
+		<a href="#">
+			<i class="iconfont icon-jinlingyingcaiwangtubiao24"></i>
+			<div class="icoDiv">
+				<span class="vip">我的资产
+				</span>
+				<div class="emptyDiv"></div>
+			</div>	
+		</a>
+		<a id="ccc" href="#">
+			<i class="iconfont icon-shou-cang"></i>
+			<div class="icoDiv">
+				<span class="vip">我的收藏
+				</span>
+				<div class="emptyDiv"></div>
+			</div>
+		</a>
+		<a href="#">
+			<i class="iconfont icon-jilu1"></i>
+			<div class="icoDiv">
+				<span class="vip">我看过的
+				</span>
+				<div class="emptyDiv"></div>
+			</div>
+		</a>
+	
+		<a href="#">
+			<i class="iconfont icon-fankui1"></i>
+			<div class="icoDiv">
+				<span class="vip">用户反馈
+				</span>
+				<div class="emptyDiv"></div>
+			</div>	
+		</a>
+		<a  href="#">
+			<i class="iconfont icon-QRCode"></i>
+				<div class="icoDiv1">
+					<p id="iconP01">
+						<img id="fffImg" src="img/ttmm.png"/><br/>
+							<b>首次登录天猫APP</b><br/>
+							<b>新人抢10-15元红包</b>
+						</p>
+				<div id="emptyDiv"></div>
+			</div>
+		</a>
+		<a href="#">
+			<i class="iconfont icon-top1"></i>
+			<div class="icoDiv">
+				<span class="vip">返回顶部
+				</span>
+				<div class="emptyDiv"></div>
+			</div>
+		</a>
+</div>
+
+<!-- 左侧边 -->
+<div class="sideLeft">
+	<a href="#f01">生鲜水果<i class="iconfont icon-3"></i></a>
+	<a href="#f02">进口零食<i class="iconfont icon-3"></i></a>
+	<a href="#f03">纸制品<i class="iconfont icon-3"></i></a>
+	<a href="#f04">家用纺织<i class="iconfont icon-3"></i></a>
+	<a href="#f05">奶制品<i class="iconfont icon-3"></i></a>
+	<a href="#f06">休闲零食<i class="iconfont icon-3"></i></a>
+	<a href="#f07">饼干糖巧<i class="iconfont icon-3"></i></a>
+	<a href="#f08">酒水饮料<i class="iconfont icon-3"></i></a>
+	<a href="#f09">冲饮保健<i class="iconfont icon-3"></i></a>
+	<a href="#f10">美容护肤<i class="iconfont icon-3"></i></a>
+	<a href="#">休闲零食<i class="iconfont icon-3"></i></a>
+	<a href="#">饼干糖巧<i class="iconfont icon-3"></i></a>
+	<a href="#">酒水饮料<i class="iconfont icon-3"></i></a>
+	<a href="#">冲饮保健<i class="iconfont icon-3"></i></a>
+	<a href="#">美容护肤<i class="iconfont icon-3"></i></a>
+	<a href="#">休闲零食<i class="iconfont icon-3"></i></a>
+	<a href="#">饼干糖巧<i class="iconfont icon-3"></i></a>
+	<a href="#">酒水饮料<i class="iconfont icon-3"></i></a>
+	<a href="#">冲饮保健<i class="iconfont icon-3"></i></a>
+	<a href="#">美容护肤<i class="iconfont icon-3"></i></a>
+	<a href="#">饼干糖巧<i class="iconfont icon-3"></i></a>
+	<a href="#">酒水饮料<i class="iconfont icon-3"></i></a>
+	<p><img src="img/tmcs.jpg"/></p>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/move1808.js" ></script>
+<script type="text/javascript" src="js/slider.js" ></script>
+<script type="text/javascript" src="js/cookieTools.js"></script>
+<script type="text/javascript" src="js/tools.js" ></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+	
+window.onload = function(){
+
+	//1、流程
+	let s1 = new Slider({
+		boxDom:$("#mTop"),
+		width:750,
+		height:291,
+		imgs:["img/lb02.jpg","img/lb01.jpg","img/lb03.jpg","img/lb04.jpg","img/lb05.jpg","img/lb06.jpg","img/lb07.jpg",],
+		btnColor:"black",
+		btnHighColor:'red',
+		btnSize:20,
+		isCircle:true,
+		timeSpace:3000,
+		isAutoPlay:true
+	});
+
+	play01();
+	stop01();
+
+
+
+}
+</script>

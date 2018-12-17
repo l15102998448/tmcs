@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+.header{
+	width:100%;
+}
+.header01{
+	width:1190px;
+	height: 44px;
+	padding:22px 0;
+	margin:0 auto;
+}
+.header01 img{
+	width:190px;
+	height: 27px;
+	margin-top:8px;
+}
+/*content*/
+.content{
+	width:100%;
+}
+.content01{
+	margin:0 auto;
+	width:1190px;
+	height: 600px;
+	position: relative;
+}
+.rightDiv{
+	width:310px;
+	background: white;
+	float:right;
+	position: absolute;
+	right:60px;
+	top:80px;
+	z-index: 1;
+	padding: 15px 25px 20px 25px;
+}
+.rightDiv h3{
+	line-height: 68px;
+	font-size:16px;
+	color:#3c3c3c;
+}
+.rightDiv input{
+	width:240px;
+	border:1px solid #cbcbcb;
+	padding:11px 8px 11px 50px;
+	margin-bottom:25px;
+}
+input:nth-child(1){
+	background:url(../img/login_person.png) no-repeat left;
+}
+input:nth-child(2){
+	background:url(../img/login_lock.png) no-repeat left;
+}
+#lastInput{
+	width:300px;
+	height: 42px;
+	margin-bottom: 10px;
+	background:#ff0036;
+	color:white;
+	font-size:16px;
+	font-weight: 600;
+	text-align: center;
+	padding-left:0;
+	border-radius: 3px;
+}
+.rightDiv p{
+	margin-left:105px;
+	padding-bottom: 30px;
+}
+.rightDiv p a{
+	font-size:12px;
+	color:#6c6c6c;
+	display: inline-block;
+	padding:15px 5px 20px 5px;
+}
+
+#chk{
+	width: 23px;
+	height: 18px;
+}
+#chk+span{
+	font-size:14px;
+	color:#6c6c6c;
+}
+/*footer*/
+#footerBottom01{
+	background:white;
+}
+#footerBottom01 p a{
+	color:black;
+}
+#footerBottom01 span{
+	color:#666666;
+}

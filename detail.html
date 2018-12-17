@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商品详情页</title>
+<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/goods.css"/>
+<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+</head>
+<body>
+	<!-- 顶部 -->
+<div class="mostTop">
+	<div class="mTop">
+		<a href="#">
+		<img src="img/gtop.png"/>
+	</a>
+	</div>
+</div>
+<!-- header -->
+<div class="tHeader">
+	<!-- header top -->
+	<div class="tHeader_top">
+		<div class=theader_top1>
+			<p class="tHeader_p1">
+				<!-- <i>||</i> -->
+				<a href="#" target="">天猫首页</a>
+			</p>
+			<p id="" class="tHeader_p2">
+				<em style="margin-right: 20px">喵，欢迎来天猫</em>
+				<div class="wdl">
+					<div class="lobox">
+						<a id="loginCookie" href="login.html" target="_blank">请登录</a>
+						<a id="regCookie" href="register.html" target="_blank">免费注册</a>
+					</div>
+					<div id="welcomeBox">
+						欢迎您：<span id="usernameSpan"></span>
+						<input id="btnOut" type="button" value="注销" />
+					</div>
+					<!-- <div id="loginBox">
+						<a href="demo11login.html" >请登录</a>
+					</div> -->
+				</div>
+			</p>
+			<ul class="tMenu">
+				<li class="tList01">
+					<a href="#" class="tb">我的淘宝 <span class="triangle"></span></a>
+						<div class="shopBaby">
+							<a href="#">已买到的宝贝</a>
+							<a href="#">已卖出的宝贝</a>
+						</div>
+				</li>
+				<li class="tList02">
+					<a href="gwc.html"><img src="img/g1.png"/>购物车</a>
+				</li>
+				<li class="tList01">
+					<a href="#">收藏夹  <span class="triangle"></span></a>
+						<div  class="shopBaby" >
+							<a href="#">收藏的宝贝</a>
+							<a href="#">收藏的店铺</a>
+						</div>
+				</li> 
+				<li class="tlistSpecial" style="margin:6px  4px  6px 3px;width:1px;border:none"></li>
+				<li class="tList04">
+					<a href="#"><img src="img/g2.png"/>手机版</a>
+					<span class="triangle01"></span>
+					<div class="tuPian">
+						<img src="img/ttmm.png"/>
+						<p>
+							<b>到天猫APP</b><br/>
+							<b>新人抢10-15元红包</b>
+						</p>
+					</div>
+				</li>
+				<li class="tList05">
+					<a href="#">淘宝网</a>
+				</li>
+				<li class="tList06">
+					<a href="#"><img src="img/g3.png"/>商家支持</a>
+				</li>
+				<li class="tList07">
+					<a href="#">网站导航<span class="triangle"></span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- header buttom -->
+	<div class="header_bottom">
+		<h1 id="mallLogo">
+			<span class="mLogo">
+				<a href="#">
+					<img src="img/mLogo.png"/>
+				</a>
+			</span>
+		</h1>
+		<div class="bCity">
+			<h3>西安</h3>
+		</div>
+		<div class="fMiddle">
+			<form>
+				<input type="text" placeholder="请搜索天猫产品" />
+				<button  id="btnSearch" type="submit">搜 索</button>
+			</form>
+		</div>
+		<div class="header_banner">
+			<ul class="market_feature">
+				<li>
+					<a href="#">
+						<img class="iconP" src="img/icon01.png"/>一站式购齐</a>
+				</li>
+				<li>
+					<a href="#"><img class="iconP" src="img/icon02.png"/>满88包邮</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/b01.png"/>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/b.png"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- chaoshi nav -->
+<div class="nav02">
+	<div class="proClassify">
+		<p id="product01">所有产品分类</p>
+		<div class="navList">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="goods.html">量贩装</a></li>	
+				<li><a href="#">生鲜区</a></li> 
+				<li><a href="#">企业采购</a></li>
+				<li><a href="#" id="specialA">大家电</a></li>	
+			</ul>
+		</div>
+		<a href="#" class="navM">
+			<img src="img/icon03.png"/>我的福利
+		</a>
+		<div class="proRight">
+			<div class="shopingCar01">
+				<p>
+					<b>￥0.00元</b>
+					<b>0kg</b>
+				</p>
+				<span class="sIcon"></span>
+			</div>
+			<div class="sCar">
+				<p class="splist">
+					<span>商品</span>
+					<span>数量</span>
+					<span>价格</span>
+					<span>删除</span>
+				</p>
+				<p class="spCar">
+					<span>如果您还没有登录，可能会导致购物车为空，请<a href="login.html">马上登录</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 中部 -->
+<div class="xqContent">
+	<div class="xqContent01">
+		<div class="xqContent01Left">
+			<div class="leftBox">
+				<div id="bigBox">
+					<!-- <div class="videoBox">
+						<video contrls width="420" height="420" autoplay webkit-playsinline="webkit-playsinline">
+						<source src="img/ban.mp4" type="video/mp4"/>
+					</video>
+					</div> -->
+					
+				<div id="mirrorBox">
+				</div>
+				<div id="showBox">
+				</div>
+				</div>
+				<div>
+					<ul class="smallPic">
+						<li>
+							<img src="img/slj1.jpg"/>
+						</li>
+						<li>
+							<img src="img/slj2.jpg"/>
+						</li>
+						<li>
+							<img src="img/slj3.jpg"/>
+						</li>
+						<li>
+							<img src="img/slj4.jpg"/>
+						</li>
+						<li>
+							<img src="img/slj5.jpg"/>
+						</li>
+					</ul>
+				</div>
+				<p class="share">
+					<span>
+						<img src="" />分享</span>
+					<span> <img src="" />收藏宝贝(23564人气)</span>
+					<span class="jubao">举报</span>
+				</p>
+			</div>
+			<div class="xqContent01LeftRight">
+				<h1>Snickers/士力架花生夹心巧克力全家桶460g*2桶装补充能量</h1>
+				<p class="smallTitle">补充能量 横扫饥饿 活力无限</p>
+				<!-- 单价 -->
+				<dl class="contentPrice">
+					<img class="imgP" src="img/xq1.png"/>
+					<dt>价格</dt>
+					<dd>
+						￥<sapn>59.8</sapn>
+						<p></p><span>聚划算</span>-
+					</dd>
+				</dl>
+				<!-- 运费 -->
+				<dl class="expenses">
+					<dt>运费</dt>
+					<dd>
+						<p>
+							<span>陕西西安</span> 至
+							<span>西安<i class="iconfont icon-gotop"></i></span>
+							<span>未央区<i class="iconfont icon-gotop"></i></span>
+							<span>满88(20KG以内)包邮</span>
+							<span>配送规则</span>
+						</p>
+						<p>
+							<img src="img/tmzs.png"/>
+							<span> 开团后下单并付款，预计12月13日送达</span>
+						</p>		
+					</dd>
+				</dl>
+				<!-- 销量 -->
+				<ul class="sales">
+					<li>月销量 <a href="#" style="color:red">22531</a></li>
+					<li>累计评价 <a href="#" style="color:red">789556</a></li>
+					<li>送天猫积分 <a href="#" style="color:green">5</a></li>
+				</ul>
+				<!-- 数量 -->
+				<div class="xqbottom">
+					<dl>
+						<dt>数量</dt>
+						<dd class="numBox">
+							<input id="shopNum" type="text" value="1"/>
+							<span class="topNum"><i class="iconfont icon-toolbar-top"></i></span>
+							<span class="bottomNum"><i class="iconfont icon-gotop"></i></span> 
+							<span id="sword">&nbsp;
+							&nbsp;件  库存3684件</span>
+						</dd>
+					</dl>
+					<p>
+						<button class="btnCar">加入购物车</button>
+					</p>
+					<dl>
+						<dt>配送范围</dt>
+						<dd class="peisong">送货范围仅限延安，汉中，榆林，宝鸡，安康，咸阳，铜川，商洛，西安，渭南等地区</dd>
+					</dl>
+					<p class="zhifu">支付方式<i class="iconfont icon-gotop"></i><br/>
+							
+						<!-- <div class="pay">
+							<span>信用卡</span>
+							<span>支付宝</span>
+							<span>蚂蚁花呗</span>
+							<span>余额宝</span>
+						</div> -->
+					</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+<!-- footer -->
+<div class="xqfooter">
+	<div class="xqfooter01">
+		<div class="xqfooter02">
+				<div class="footerLeft">
+				<a href="#">
+					<img src="img/jly.jpg"/>
+				</a>
+				<a href="#">
+					<img src="img/jly.jpg"/>
+				</a>
+				<a href="#">
+					<img src="img/jly.jpg"/>
+				</a>
+			</div>
+			<div class="footerRight">
+				<h3>商品详情</h3>
+				<div id="lbpicture"></div>
+				<div class="footerBg">
+					<a href="#">
+						<img src="img/bigbg.png"/>
+					</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<!-- footer -->
+<div class="footer">
+	<div class="footer01">
+		<div class="footerTop">
+			<img class="footerImgs1" src="img/tmLogo.png"/>
+			<img  class="footerImgs2" src="img/tmm.png"/>
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">随时随地逛</a>
+				</dt>
+				<dd>
+					<a href="#">
+						<img class="code" src="img/picture.png"/>
+					</a>
+				</dd>
+			</dl>
+		</div>
+		<div class="footerBottom">
+			<!-- <div class="footerBottom01"> -->
+				<p>
+					<a href="#">关于天猫</a>
+					<a href="#">帮助中心</a>
+					<a href="#">开放平台</a>
+					<a href="#">诚聘英才</a>
+					<a href="#">联系我们</a>
+					<a href="#">网站合作</a>
+					<a href="#">法律说明</a>
+					<a href="#">隐私权政策</a>
+					<a href="#">知识产权</a>
+					<a href="#">廉政举报</a>
+				</p>
+				<p>
+					<a href="#">关于天猫</a> | 
+					<a href="#">帮助中心</a> | 
+					<a href="#">开放平台</a> | 
+					<a href="#">诚聘英才</a> | 
+					<a href="#">联系我们</a> | 
+					<a href="#">网站合作</a> | 
+					<a href="#">法律说明</a> | 
+					<a href="#">隐私权政策</a> | 
+					<a href="#">知识产权</a> | 
+					<a href="#">廉政举报</a>
+				</p>
+				<div class="footerLast">
+					<span>增值电信业务经营许可证：<a class="fWord" href="#">浙B2-20110446</a></span>
+					<span>市场名称登记证：工商网市字3301004119号</span>
+					<span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span><br/>
+					<span>互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+					<span>互联网药品信息服务资质证书编号：<a class="fWord" href="#">浙-（经营性）-2017-0005</a></span>
+					<a class="fWord" href="#">
+						<img style="width:25px;height: 20px;vertical-align: middle" src="img/b01.png"/>浙公网安备  3000255615485号
+					</a>
+					<span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
+					<span>互联网药品交易服务资格证书：国A20150001</span>
+					<span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+					<a class="fWord" href="#">12318举报</a><br/>
+					<b style="font-weight: 100;color:#66676c">© 2003-2018 TMALL.COM 版权所有</b>
+    				
+				</div>
+			<!-- </div> -->
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/move1808.js" ></script>
+<script type="text/javascript" src="js/slider.js" ></script>
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript" src="js/cookieTools.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+<script type="text/javascript">
+	// 菜单栏固定
+	function navFixed(scroll){
+	
+		if(scroll>200){
+			$(".nav02")[0].style.position='fixed';
+			$(".nav02")[0].style.left="0";
+			$(".nav02")[0].style.top="0";
+			$(".nav02")[0].style.zIndex="5";
+		}else{
+				$(".nav02")[0].style.position='relative';
+				$(".nav02")[0].style.left="0";
+				$(".nav02")[0].style.top="0";
+				$(".nav02")[0].style.zIndex="0";
+		}
+}
+var n =3;
+
+function initUI01(){
+	$("#showBox").style.width =  parseFloat(getStyle($("#mirrorBox"),"width"))*n+"px";
+	$("#showBox").style.height = parseFloat(getStyle($("#mirrorBox"),"height"))*n+"px";
+	$("#showBox").style.backgroundSize = $("#bigBox").offsetWidth*n +"px "+$("#bigBox").offsetHeight*n+"px";
+}
+
+window.onload = function(){
+	initUI01();
+	
+	
+	$("#showBox").onmouseover = function(event){
+		let evt = event || window.event;
+		evt.stopPropagation();
+	}
+	
+	$("#bigBox").onmouseover = function(){
+		 $("#mirrorBox").style.display ="block";
+		 $("#showBox").style.display ="block";
+	}
+	
+	$("#bigBox").onmouseout = function(){
+		 $("#mirrorBox").style.display ="none";
+		 $("#showBox").style.display ="none";
+	}
+
+	$("#bigBox").onmousemove = function(event){
+		let evt = event || window.event;
+		//1、数据
+		let mirrorWidth = $("#mirrorBox").offsetWidth;
+		let mirrorHeight = $("#mirrorBox").offsetHeight;
+		let left1 = evt.pageX-this.offsetLeft-mirrorWidth/2;
+		let top1 = evt.pageY-this.offsetTop-mirrorHeight/2;
+		
+		//2、边界
+		if(left1<0){
+			left1=0;
+		}
+		if(left1>this.offsetWidth-mirrorWidth){
+			left1=this.offsetWidth-mirrorWidth;
+		}
+		
+		if(top1<0){
+			top1=0;
+		}
+		if(top1>this.offsetHeight-mirrorHeight){
+			top1=this.offsetHeight-mirrorHeight;
+		}
+		//3、改变外观
+		$("#mirrorBox").style.left = left1+"px";
+		$("#mirrorBox").style.top = top1+"px";
+		$("#showBox").style.backgroundPosition = (-n*left1)+"px "+(-n*top1)+"px";
+	}
+
+	// 轮播图
+	let s1 = new Slider({
+		boxDom:$("#lbpicture"),
+		width:790,
+		height:305,
+		imgs:["img/lb11.jpg","img/lb22.jpg","img/lb33.jpg","img/lb44.jpg","img/lb55.jpg"],
+		btnColor:"black",
+		btnHighColor:'red',
+		btnSize:20,
+		isCircle:true,
+		timeSpace:3000,
+		isAutoPlay:true
+	});
+	
+
+	var lis=$(".smallPic")[0].children;
+	for(let i=0;i<lis.length;i++){
+		lis[i].setAttribute("index",i);
+		lis[i].onmouseover=function(){
+			$("#bigBox").style.backgroundImage="url("+lis[this.getAttribute("index")].firstElementChild.src+")";
+			$("#showBox").style.backgroundImage="url("+lis[this.getAttribute("index")].firstElementChild.src+")";
+		}
+	}
+
+
+
+
+	var addBtns = $(".topNum");
+	for(var i=0;i<addBtns.length;i++){
+		addBtns[i].click(function(){
+			//1、改数量
+			var count = parseInt(this.previousElementSibling.html());
+			count++;
+			this.previousElementSibling.html(count);
+		})
+	}
+	
+	var reduceBtns = $(".bottomNum");
+	for(var i=0;i<reduceBtns.length;i++){
+		reduceBtns[i].click(function(){
+			//1、改数量
+			var count = parseInt(this.previousElementSibling.html());
+			count--;
+			if(count<0){
+				return;
+			}
+			this.previousElementSibling.html(count);
+		})
+	}
+	
+}
+
+window.onscroll=function(){
+	var scroll=document.documentElement.scrollTop || document.body.scrollTop;
+	navFixed(scroll);
+	
+}
+
+</script>

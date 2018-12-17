@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑",Arial;
+
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+img{
+	border:none;
+}
+form{
+	font-size:12px;
+	color:#a59d9d;
+	text-align: center;
+}
+
+.vipReg{
+	font-size:12px;
+	color:black;
+	float: right;
+	font-weight: 100;
+	margin-right: 10px;
+}
+.vipReg a{
+	font-size:12px;
+	color:red;
+}
+#userpass{
+	background:url(../img/lock-1.png) no-repeat left;
+}
+#pass01{
+	background:url(../img/lock-1.png) no-repeat left;
+}
+.rightDiv input{
+	margin-bottom:5px;
+}
+
+#checkInput{
+	width:18px;
+	height: 18px;
+	padding-left:0;
+	margin-left:8px;
+	margin-right: 5px;
+}
+#lastInput{
+	margin-top:15px;
+}
+#spanId{
+	width:300px;
+	height:15px;
+	display: inline-block;
+	font-size:12px;
+}

@@ -1,0 +1,1274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>商品列表</title>
+<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/goods.css"/>
+</head>
+<body>
+<!-- 顶部 -->
+<div class="mostTop">
+	<div class="mTop">
+		<a href="#">
+		<img src="img/gtop.png"/>
+	</a>
+	</div>
+</div>
+<!-- header -->
+<div class="tHeader">
+	<!-- header top -->
+	<div class="tHeader_top">
+		<div class=theader_top1>
+			<p class="tHeader_p1">
+				<!-- <i>||</i> -->
+				<a href="#" target="">天猫首页</a>
+			</p>
+			<p id="" class="tHeader_p2">
+				<em style="margin-right: 20px">喵，欢迎来天猫</em>
+				<div class="wdl">
+					<div class="lobox">
+						<a id="loginCookie" href="login.html" target="_blank">请登录</a>
+						<a id="regCookie" href="register.html" target="_blank">免费注册</a>
+					</div>
+					<div id="welcomeBox">
+						欢迎您：<span id="usernameSpan"></span>
+						<input id="btnOut" type="button" value="注销" />
+					</div>
+					<!-- <div id="loginBox">
+						<a href="demo11login.html" >请登录</a>
+					</div> -->
+				</div>
+			</p>
+			<ul class="tMenu">
+				<li class="tList01">
+					<a href="#" class="tb">我的淘宝 <span class="triangle"></span></a>
+						<div class="shopBaby">
+							<a href="#">已买到的宝贝</a>
+							<a href="#">已卖出的宝贝</a>
+						</div>
+				</li>
+				<li class="tList02">
+					<a href="gwc.html"><img src="img/g1.png"/>购物车</a>
+				</li>
+				<li class="tList01">
+					<a href="#">收藏夹  <span class="triangle"></span></a>
+						<div  class="shopBaby" >
+							<a href="#">收藏的宝贝</a>
+							<a href="#">收藏的店铺</a>
+						</div>
+				</li> 
+				<li class="tlistSpecial" style="margin:6px  4px  6px 3px;width:1px;border:none"></li>
+				<li class="tList04">
+					<a href="#"><img src="img/g2.png"/>手机版</a>
+					<span class="triangle01"></span>
+					<div class="tuPian">
+						<img src="img/ttmm.png"/>
+						<p>
+							<b>到天猫APP</b><br/>
+							<b>新人抢10-15元红包</b>
+						</p>
+					</div>
+				</li>
+				<li class="tList05">
+					<a href="#">淘宝网</a>
+				</li>
+				<li class="tList06">
+					<a href="#"><img src="img/g3.png"/>商家支持</a>
+				</li>
+				<li class="tList07">
+					<a href="#">网站导航<span class="triangle"></span></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- header buttom -->
+	<div class="header_bottom">
+		<h1 id="mallLogo">
+			<span class="mLogo">
+				<a href="#">
+					<img src="img/mLogo.png"/>
+				</a>
+			</span>
+		</h1>
+		<div class="bCity">
+			<h3>西安</h3>
+		</div>
+		<div class="fMiddle">
+			<form>
+				<input type="text" placeholder="请搜索天猫产品" />
+				<button  id="btnSearch" type="submit">搜 索</button>
+			</form>
+		</div>
+		<div class="header_banner">
+			<ul class="market_feature">
+				<li>
+					<a href="#">
+						<img class="iconP" src="img/icon01.png"/>一站式购齐</a>
+				</li>
+				<li>
+					<a href="#"><img class="iconP" src="img/icon02.png"/>满88包邮</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/b01.png"/>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/b.png"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- chaoshi nav -->
+<div class="nav02">
+	<div class="proClassify">
+		<p id="product01">所有产品分类</p>
+		<div class="navList">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="goods.html">量贩装</a></li>	
+				<li><a href="#">生鲜区</a></li> 
+				<li><a href="#">企业采购</a></li>
+				<li><a href="#" id="specialA">大家电</a></li>	
+			</ul>
+		</div>
+		<div class="proRight">
+			<div class="shopingCar01">
+				<p>
+					<b>￥0.00元</b>
+					<b>0kg</b>
+				</p>
+				<span class="sIcon"></span>
+			</div>
+			<div class="sCar">
+				<p class="splist">
+					<span>商品</span>
+					<span>数量</span>
+					<span>价格</span>
+					<span>删除</span>
+				</p>
+				<p class="spCar">
+					<span>如果您还没有登录，可能会导致购物车为空，请<a href="login.html">马上登录</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 中部背景图 -->
+<div class="banner"></div>
+<!-- 商品列表 -->
+<div class="goodsList">
+	<!-- 包邮好货 -->
+	<div id="g01" class="goodsList01">
+		<h1>包邮好货</h1>
+		<div class="chocolate">
+			<a href="detail.html">
+				<img src="img/slj.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>Snickers/士力架花生夹心巧克力全家桶460g*2桶装补充能量</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥59.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/df.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>Dove/德芙丝滑牛奶巧克力252g*2碗装纵享新丝滑甜蜜糖巧</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥59.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 超值囤货 -->
+	<div id="g02" class="goodsList01">
+		<h1>超值囤货</h1>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_1.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【下单减7元】泰国进口养养牌酸辣虾味浓汤面350g/袋*2方便面泡面</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥36.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_2.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【买三赠三】好佳一网红小猪佩奇乳酸菌原味100ml*5瓶酸奶饮料</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥24.6</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_3.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【第2件0元】2018年新米上市十月稻田寒地之最长粒王5kg</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥99.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_4.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>舒肤佳沁醒舒爽沐浴露 男士活力劲爽清新持久留香家庭套装720ml</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥52.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_5.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>旺旺贝比玛玛鱼棒儿童营养零食肉肠即食火腿肠240g鳕鱼肠</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥39.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_6.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>黑人漱口水清心绿茶500ml*2清新口气新老包装随机发</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥79.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 家清定制 -->
+	<div id="g03" class="goodsList01">
+		<h1>家清定制</h1>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_1.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【下单减7元】泰国进口养养牌酸辣虾味浓汤面350g/袋*2方便面泡面</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥36.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_2.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>Snickers/士力架花生夹心巧克力全家桶460g*2桶装补充能量</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥24.6</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_3.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>Snickers/士力架花生夹心巧克力全家桶460g*2桶装补充能量</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥99.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_4.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>Snickers/士力架花生夹心巧克力全家桶460g*2桶装补充能量</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥52.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_5.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>Snickers/士力架花生夹心巧克力全家桶460g*2桶装补充能量</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥39.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_6.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>Snickers/士力架花生夹心巧克力全家桶460g*2桶装补充能量</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥79.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 个护定制 -->
+	<div id="g04" class="goodsList01">
+		<h1>个护定制</h1>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_1.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【下单减7元】泰国进口养养牌酸辣虾味浓汤面350g/袋*2方便面泡面</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥36.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_2.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【买三赠三】好佳一网红小猪佩奇乳酸菌原味100ml*5瓶酸奶饮料</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥24.6</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_3.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【第2件0元】2018年新米上市十月稻田寒地之最长粒王5kg</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥99.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_4.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>舒肤佳沁醒舒爽沐浴露 男士活力劲爽清新持久留香家庭套装720ml</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥52.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_5.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>旺旺贝比玛玛鱼棒儿童营养零食肉肠即食火腿肠240g鳕鱼肠</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥39.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_6.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>黑人漱口水清心绿茶500ml*2清新口气新老包装随机发</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥79.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 粮油定制 -->
+	<div id="g05" class="goodsList01">
+		<h1>粮油定制</h1>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_1.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【下单减7元】泰国进口养养牌酸辣虾味浓汤面350g/袋*2方便面泡面</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥36.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_2.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【买三赠三】好佳一网红小猪佩奇乳酸菌原味100ml*5瓶酸奶饮料</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥24.6</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_3.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【第2件0元】2018年新米上市十月稻田寒地之最长粒王5kg</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥99.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_4.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>舒肤佳沁醒舒爽沐浴露 男士活力劲爽清新持久留香家庭套装720ml</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥52.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_5.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>旺旺贝比玛玛鱼棒儿童营养零食肉肠即食火腿肠240g鳕鱼肠</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥39.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_6.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>黑人漱口水清心绿茶500ml*2清新口气新老包装随机发</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥79.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 乳饮定制 -->
+	<div id="g06" class="goodsList01">
+		<h1>乳饮定制</h1>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_1.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【下单减7元】泰国进口养养牌酸辣虾味浓汤面350g/袋*2方便面泡面</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥36.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_2.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【买三赠三】好佳一网红小猪佩奇乳酸菌原味100ml*5瓶酸奶饮料</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥24.6</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_3.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【第2件0元】2018年新米上市十月稻田寒地之最长粒王5kg</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥99.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_4.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>舒肤佳沁醒舒爽沐浴露 男士活力劲爽清新持久留香家庭套装720ml</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥52.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_5.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>旺旺贝比玛玛鱼棒儿童营养零食肉肠即食火腿肠240g鳕鱼肠</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥39.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_6.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>黑人漱口水清心绿茶500ml*2清新口气新老包装随机发</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥79.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 零食定制 -->
+	<div id="g08" class="goodsList01">
+		<h1>零食定制</h1>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_1.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【下单减7元】泰国进口养养牌酸辣虾味浓汤面350g/袋*2方便面泡面</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥36.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_2.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【买三赠三】好佳一网红小猪佩奇乳酸菌原味100ml*5瓶酸奶饮料</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥24.6</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_3.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【第2件0元】2018年新米上市十月稻田寒地之最长粒王5kg</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥99.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_4.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>舒肤佳沁醒舒爽沐浴露 男士活力劲爽清新持久留香家庭套装720ml</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥52.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_5.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>旺旺贝比玛玛鱼棒儿童营养零食肉肠即食火腿肠240g鳕鱼肠</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥39.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_6.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>黑人漱口水清心绿茶500ml*2清新口气新老包装随机发</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥79.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 美妆定制 -->
+	<div id="g09" class="goodsList01">
+		<h1>美妆定制</h1>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_1.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【下单减7元】泰国进口养养牌酸辣虾味浓汤面350g/袋*2方便面泡面</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥36.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_2.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【买三赠三】好佳一网红小猪佩奇乳酸菌原味100ml*5瓶酸奶饮料</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥24.6</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_3.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【第2件0元】2018年新米上市十月稻田寒地之最长粒王5kg</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥99.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_4.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>舒肤佳沁醒舒爽沐浴露 男士活力劲爽清新持久留香家庭套装720ml</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥52.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_5.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>旺旺贝比玛玛鱼棒儿童营养零食肉肠即食火腿肠240g鳕鱼肠</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥39.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_6.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>黑人漱口水清心绿茶500ml*2清新口气新老包装随机发</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥79.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 母婴定制 -->
+	<div id="g10" class="goodsList01">
+		<h1>母婴定制</h1>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_1.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【下单减7元】泰国进口养养牌酸辣虾味浓汤面350g/袋*2方便面泡面</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥36.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_2.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【买三赠三】好佳一网红小猪佩奇乳酸菌原味100ml*5瓶酸奶饮料</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥24.6</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_3.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>【第2件0元】2018年新米上市十月稻田寒地之最长粒王5kg</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥99.0</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_4.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>舒肤佳沁醒舒爽沐浴露 男士活力劲爽清新持久留香家庭套装720ml</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥52.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_5.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>旺旺贝比玛玛鱼棒儿童营养零食肉肠即食火腿肠240g鳕鱼肠</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥39.8</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+		<div class="chocolate">
+			<a href="#">
+				<img src="img/g_6.jpg"/>
+			</a>
+			<div class="chocolate_info">
+				<h2>黑人漱口水清心绿茶500ml*2清新口气新老包装随机发</h2>
+				<p class="unitprice">
+					<a href="#" target="_blank">￥79.9</a>
+					<img src="img/gicon01.png"/>
+				</p>
+				<p>
+					<a href="#">26423</a>人已购买
+					<img class="gshopCar" src="img/shoping.png"/>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 表格部分 -->
+<div class="gSheet">
+	<div class="gSheet01">
+		<a href="#">
+			<img src="img/thlogo.jpg"/>
+		</a>
+		<div class="gSheetTop">
+			<a href="#">
+				<img src="img/zhc01.png"/>
+			</a>
+			<a href="#">
+				<img src="img/zhc02.png"/>
+			</a>
+			<div class="sheetLeft">
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+			</div>
+			<div class="sheetLeft sheetRight">
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+				<a href="#">大牌男装  ></a>
+			</div>
+			<div class="sheetRightImg">
+				<img src="img/pzsh.png"/>
+				<img src="img/tm2.png"/>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 左侧边 -->
+<div class="goodsSideLeft">
+	<ul>
+		<li><a href="#g01">包邮好货</a></li>
+		<li><a href="#g02">超值囤货</a></li>
+		<li><a href="#g03">家清定制</a></li>
+		<li><a href="#g04">个护定制</a></li>
+		<li><a href="#g05">粮油定制</a></li>
+		<li><a href="#g06">乳饮定制</a></li>
+		<li><a href="#g07">零食定制</a></li>
+		<li><a href="#g08">美妆定制</a></li>
+		<li><a href="#g09">母婴定制</a></li>
+		<li><a href="#">返回顶部</a></li>
+	</ul>
+</div>
+<!-- 右侧边 -->
+<div class="sideRight">
+		<a  href="#">
+			<i class="iconfont icon-tianmao"></i>
+			<div class="icoDiv">
+				<span class="vip">会员权益
+				</span>
+				<div class="emptyDiv"></div>
+			</div>	
+		</a>
+
+		<a href="#">
+			<i class="iconfont icon-jinlingyingcaiwangtubiao24"></i>
+			<div class="icoDiv">
+				<span class="vip">我的资产
+				</span>
+				<div class="emptyDiv"></div>
+			</div>	
+		</a>
+		<a id="ccc" href="#">
+			<i class="iconfont icon-shou-cang"></i>
+			<div class="icoDiv">
+				<span class="vip">我的收藏
+				</span>
+				<div class="emptyDiv"></div>
+			</div>
+		</a>
+		<a href="#">
+			<i class="iconfont icon-jilu1"></i>
+			<div class="icoDiv">
+				<span class="vip">我看过的
+				</span>
+				<div class="emptyDiv"></div>
+			</div>
+		</a>
+	
+		<a href="#">
+			<i class="iconfont icon-fankui1"></i>
+			<div class="icoDiv">
+				<span class="vip">用户反馈
+				</span>
+				<div class="emptyDiv"></div>
+			</div>	
+		</a>
+		<a  href="#">
+			<i class="iconfont icon-QRCode"></i>
+				<div class="icoDiv1">
+					<p id="iconP01">
+						<img id="fffImg" src="img/ttmm.png"/><br/>
+							<b>首次登录天猫APP</b><br/>
+							<b>新人抢10-15元红包</b>
+						</p>
+				<div id="emptyDiv"></div>
+			</div>
+		</a>
+		<a href="#">
+			<i class="iconfont icon-top1"></i>
+			<div class="icoDiv">
+				<span class="vip">返回顶部
+				</span>
+				<div class="emptyDiv"></div>
+			</div>
+		</a>
+</div>
+<!-- footer -->
+<div class="footer">
+	<div class="footer01">
+		<div class="footerTop">
+			<img class="footerImgs1" src="img/tmLogo.png"/>
+			<img  class="footerImgs2" src="img/tmm.png"/>
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="#">购物指南</a>
+				</dt>
+				<dd>
+					<a href="#">购物流程</a>
+					<a href="#">配送时效说明</a>
+					<a href="#">配送区域及费用</a>
+					<a href="#">购买生鲜须知</a>
+					<a href="#">发票流程</a>
+					<a href="#">商品限购说明</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>
+					<a href="#">随时随地逛</a>
+				</dt>
+				<dd>
+					<a href="#">
+						<img class="code" src="img/picture.png"/>
+					</a>
+				</dd>
+			</dl>
+		</div>
+		<div class="footerBottom">
+			<!-- <div class="footerBottom01"> -->
+				<p>
+					<a href="#">关于天猫</a>
+					<a href="#">帮助中心</a>
+					<a href="#">开放平台</a>
+					<a href="#">诚聘英才</a>
+					<a href="#">联系我们</a>
+					<a href="#">网站合作</a>
+					<a href="#">法律说明</a>
+					<a href="#">隐私权政策</a>
+					<a href="#">知识产权</a>
+					<a href="#">廉政举报</a>
+				</p>
+				<p>
+					<a href="#">关于天猫</a> | 
+					<a href="#">帮助中心</a> | 
+					<a href="#">开放平台</a> | 
+					<a href="#">诚聘英才</a> | 
+					<a href="#">联系我们</a> | 
+					<a href="#">网站合作</a> | 
+					<a href="#">法律说明</a> | 
+					<a href="#">隐私权政策</a> | 
+					<a href="#">知识产权</a> | 
+					<a href="#">廉政举报</a>
+				</p>
+				<div class="footerLast">
+					<span>增值电信业务经营许可证：<a class="fWord" href="#">浙B2-20110446</a></span>
+					<span>市场名称登记证：工商网市字3301004119号</span>
+					<span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span><br/>
+					<span>互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
+					<span>互联网药品信息服务资质证书编号：<a class="fWord" href="#">浙-（经营性）-2017-0005</a></span>
+					<a class="fWord" href="#">
+						<img style="width:25px;height: 20px;vertical-align: middle" src="img/b01.png"/>浙公网安备  3000255615485号
+					</a>
+					<span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
+					<span>互联网药品交易服务资格证书：国A20150001</span>
+					<span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
+					<a class="fWord" href="#">12318举报</a><br/>
+					<b style="font-weight: 100;color:#66676c">© 2003-2018 TMALL.COM 版权所有</b>
+    				
+				</div>
+			<!-- </div> -->
+		</div>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript" src="js/cookieTools.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+	function siderLeftFixed(scroll){
+		if(scroll>600){
+			$(".goodsSideLeft")[0].style.display="block";
+		}else{
+			$(".goodsSideLeft")[0].style.display="none";
+		}
+	}
+</script>
